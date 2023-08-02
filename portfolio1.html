@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Macondo&family=Montserrat:wght@100&family=Poppins:ital,wght@0,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+   
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="portfolio2.css">
+   
+  </head>
+  <body>
+<div class="main">
+    <header>
+      <nav>
+        <div class="left">Diwakar's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="\">Home</a></li>
+            <li><a href="\">About</a></li>
+            <li><a href="\">Projects</a></li>
+            <li><a href="\">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Diwakar Kumar</span>
+          <div>and I am a</div>
+          <span id="element"></span>
+          <h6>This Portfolio is Representation of all that I have gained Knowledge</h6>
+         <a href="#" class="btn">Download CV</a>
+       
+        </div>
+        <div class="rightSection">
+          <img src="dkkk.jpg" alt="" />
+        </div>
+      </section>
+
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">Techincal skills which i have done</span>
+        <h1>Skills</h1>
+        <div class="skills">
+          <li>
+            <h3>C</h3>
+            <span class="bar"><span class="c"></span></span>
+          </li>
+          <li>
+            <h3>CPP</h3>
+            <span class="bar"><span class="cpp"></span></span>
+          </li>
+          <li>
+            <h3>JSE</h3>
+            <span class="bar"><span class="jse"></span></span>
+          </li>
+          
+          <li>
+            <h3>SQL</h3>
+            <span class="bar"><span class="sql"></span></span>
+          </li>
+          <li>
+            <h3>HTML</h3>
+            <span class="bar"><span class="html"></span></span>
+          </li>
+          <li>
+            <h3>CSS</h3>
+            <span class="bar"><span class="css"></span></span>
+          </li>
+          
+        
+        </div>
+      </section>
+      <hr />
+      <section class="thirdSection">
+        <h1>Education</h1>
+        <div class="contents">
+          <div class="box">
+            <h3>Bachelor's Degree</h3>
+            <br />
+            <h4>2020-2024</h4>
+            <br />
+            <p>Pursuing B-Tech From Sagar Institute Of Research And Technology ,Bhopal</p>
+          </div>
+          <div class="box">
+            <h3>Intermediate Degree</h3>
+            <br />
+            <h4>2018-2020</h4>
+            <br />
+            <p>
+              Completed Intermediate from Jharkhand Academic Council Board
+            </p>
+          </div>
+          <div class="box">
+            <h3>Matriculation</h3>
+            <br />
+            <h4>June 2017-June 2018</h4>
+            <br />
+            <p>
+              Completed matriculation from DAV public school
+            </p>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section class="fourthSection">
+        <div class="content">
+          <h1>Contact Us</h1>
+          
+        </div>
+        <div class="container">
+          <div class="contactInfo">
+            <div class="box">
+              <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="text">
+                <h3>Address</h3>
+                <p>
+                  H/no 50 Ratanagiri bypass,<br />Bhopal,462022
+                </p>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="text">
+                <h3>Phone</h3>
+                <p>+91-8409275326</p>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="icon">
+                <i class="fa-sharp fa-regular fa-envelope"></i>
+              </div>
+              <div class="text">
+                <h3>Email</h3>
+                <p>diwakarraj214@gmail.com</p>
+              </div>
+            </div>
+            </div>
+
+            <div class="contactForm">
+              <form>
+                <h2>Send Message</h2>
+                <div class="inputBox">
+                  <input type="text" name="" required="required" />
+                  <span>Full Name</span>
+                </div>
+                <div class="inputBox">
+                  <input type="text" name="" required="required" />
+                  <span>Email</span>
+                </div>
+                <div class="inputBox">
+                  <textarea required="required"></textarea>
+                  <span>Type your Message....</span>
+                </div>
+                <div class="inputBox">
+                  <input type="submit" name="" value="Send" />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+</div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer.", "Java Developer."],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
